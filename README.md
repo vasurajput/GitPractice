@@ -2,6 +2,8 @@
 
 Commands for Git upload
 
+git remote set-url origin new_url      // for changing Repositry
+
 git remote --verbose | grep origin       //to check current repositry
 
 => create new repositry
