@@ -56,3 +56,30 @@ git checkout -- index.html  [ move old index.html file to currrupted index.html 
  
  git checkout --{commit number First Few Digits } FileName
  
+ 
+ ################  CREATE Branches #################
+ By default branch is master branch
+ 
+ 1- for create branch use command
+     git branch vasu-branch-name
+   
+Note:  After creating branch with above command you have to use "checkout" command to work on this if you don't want to checkout and work on the new branch then use command
+     git checkout -b vasu-branch-name
+     
+ 2-  To see all branches
+      git branch -a
+      
+ 3- to switch to diff branch
+       git checkout vasu-branch-name
+       
+ 4- for deleting branch
+          Just go to master branch first using command "git checkout master" then use command
+          git branch -D vasu-branch-name
+          
+ ###############  MERGING Branches #################
+ 
+ Go to your master branch and use below command
+     git merge vasu_branch1
+     
+ 
+ 
