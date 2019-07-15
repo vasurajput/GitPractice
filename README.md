@@ -1,5 +1,10 @@
 # GitPractice
 
+create user first time
+======================
+git config --global user.email vashurajput005@gmail.com
+git config --global user.name vasu
+
 Commands for Git upload
 
 git remote set-url origin new_url      // for changing Repositry
